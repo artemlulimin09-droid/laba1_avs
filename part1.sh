@@ -2,10 +2,6 @@
 set -e
 mkdir -p "$HOME/lab0"
 cd "$HOME/lab0"
-if [[ -e claude_monet || -L claude_monet ]]; then
-    echo 'Папка claude_monet уже существует. Запусти задание №1 в чистом lab0.' >&2
-    exit 1
-fi
 mkdir -p claude_monet/kitchen/hot_station claude_monet/kitchen/pastry_station
 mkdir -p claude_monet/hall claude_monet/bar claude_monet/office claude_monet/locker_room
 

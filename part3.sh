@@ -4,7 +4,6 @@ cd "$HOME/lab0"
 export LC_ALL=C.UTF-8
 
 echo 'Задание 4.1'
-# part1.sh–part4.sh лежат в lab0 для сдачи и не входят в дерево варианта.
 ls -lRn --time-style=long-iso --ignore='part[1-4].sh' . | grep '^-' | sort -k5,5nr | head -n 5
 
 echo 'Задание 4.2'
